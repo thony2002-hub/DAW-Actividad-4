@@ -1,0 +1,26 @@
+/* Fondo de la página */
+body {
+    background-image: url('https://preview.redd.it/yu-gi-oh-anime-protagonists-gen-1-to-8-v0-rw1cbcggmhla1.jpg?width=1080&crop=smart&auto=webp&s=5e90cea2b1814b5fde4b28a779287da7db63e5db'); /* URL de la imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Mantén la imagen fija al hacer scroll */
+    background-repeat: no-repeat; /* No repite la imagen */
+  }
+  
+  /* Cambiar el color de fondo del encabezado */
+  header {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Estilo para las tarjetas */
+  .card {
+    transition: transform 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
